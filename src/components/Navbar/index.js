@@ -8,25 +8,28 @@ class Header extends React.Component {
 
     render() {
         return (
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" expand="lg" variant="dark">
                 <Navbar.Brand href={"#home"}><img src={logo} alt="Logo" /></Navbar.Brand>
-                <Nav className="justify-content-end ml-auto" activeKey="/home">
-                    <Nav.Item>
-                        <Nav.Link href="/home">Home</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/bookcar">Book a Car</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/cars">Our Cars</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/about">About</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/contact">Contact Us</Nav.Link>
-                    </Nav.Item>
-                </Nav>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="justify-content-end ml-auto" activeKey="/home">
+                        <Nav.Item>
+                            <Nav.Link href="/home">Home</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href="/bookcar">Book a Car</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href="/cars">Our Cars</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href="/about">About</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href="/contact">Contact Us</Nav.Link>
+                        </Nav.Item>
+                    </Nav>
+                </Navbar.Collapse>
             </Navbar>
         )
     }

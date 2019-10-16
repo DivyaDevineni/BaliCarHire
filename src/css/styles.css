@@ -4,6 +4,9 @@
 
 form{
     width: 70%;
-    padding-left: 20rem;
-    margin-top: 3rem;
+    padding-left: 20%;
+    margin-top: 3%;
+}
+.svg-inline--fa{
+    color:#4285f5;
 }

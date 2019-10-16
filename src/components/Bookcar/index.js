@@ -9,8 +9,8 @@ import styles from '../../css/styles.css';
 class Bookcar extends React.Component {
   render() {
     return (
-      <CardDeck style={{ marginTop: '1rem', marginRight: '0px', marginLeft: "0.3%" }}>
-        <Card bg="warning" text="white" border="dark" style={{ width: '18rem' }}>
+      <CardDeck style={{ marginTop: '1%', marginRight: '1%', marginLeft: "1%" }}>
+        <Card bg="warning" text="white" border="dark">
           <Card.Img variant="top" src={car} />
           <Card.Body>
             <Card.Title>INNOVA</Card.Title>
@@ -25,7 +25,7 @@ Mineral Water
             <Button variant="primary">Book Car</Button>
           </Card.Body>
         </Card>
-        <Card bg="secondary" text="white" border="dark" style={{ width: '18rem' }}>
+        <Card bg="secondary" text="white" border="dark">
           <Card.Img variant="top" src={car1} />
           <Card.Body>
             <Card.Title>SUZUKI</Card.Title>
@@ -40,7 +40,7 @@ Mineral Water
             <Button variant="primary">Book Car</Button>
           </Card.Body>
         </Card>
-        <Card bg="info" text="white" border="dark" style={{ width: '18rem' }}>
+        <Card bg="info" text="white" border="dark">
           <Card.Img variant="top" src={car2} />
           <Card.Body>
             <Card.Title>TOYOTO AVANZA</Card.Title>
