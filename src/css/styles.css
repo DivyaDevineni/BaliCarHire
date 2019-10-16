@@ -10,3 +10,15 @@ form{
 .svg-inline--fa{
     color:#4285f5;
 }
+
+.StripeElement {
+  width: 20rem !important;
+}
+
+.StripeElement--focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+ 
